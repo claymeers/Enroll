@@ -1,9 +1,9 @@
 # Enroll 📒
 Responsive sliding sign in / sign up form with client-side validation
 
-[Checkout the demo](https://peaceful-panda.netlify.app/)
+[Checkout the demo](https://enroll-cerulean.netlify.app/)
 
-[![Image of Calc](img/preview.png)](https://peaceful-panda.netlify.app/)
+[![Image of Calc](img/preview.png)](https://enroll-cerulean.netlify.app/)
 
 
 
