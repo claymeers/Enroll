@@ -79,6 +79,10 @@ form.sign-up-form {
     position: relative;
 }
 
+.sign-up-form .title {
+    margin-bottom: 2rem;
+}
+
 .title::before {
     content: '';
     position: absolute;
@@ -99,6 +103,10 @@ form.sign-up-form {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+.sign-up-form .social-media {
+    margin-bottom: .5rem;
 }
 
 .social-icon {
@@ -165,6 +173,43 @@ form.sign-up-form {
 
 .input-field i.hidePwd {
     right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+small {
+    position: absolute;
+    bottom: -22px;
+    visibility: hidden;
+    /* color: #c62828;
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid #ef9a9a;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin-top: 5px;
+    z-index: 99; */
+}
+
+/* Error check */
+.input-field.success input {
+    border-bottom-color: #2ecc71;
+}
+
+.input-field.success i {
+    color: #2ecc71;
+}
+
+.input-field.error input {
+    border-bottom-color: #e74c3c;
+}
+
+.input-field.error i {
+    color: #e74c3c;
+}
+
+.input-field.error small {
+    visibility: visible;
+    color: #e74c3c;
 }
 
 .checkbox-text {

@@ -11,7 +11,8 @@ Responsive sliding sign in / sign up form with client-side validation
 
 - 📱 **Responsive** - mobile friendly
 - 🐏 **Smooth animation** - add, substract, divide, multiply, modulo
-- 👌 **Form validation** - client side validation
+- 👌 **Form validation** - client side validation with JS
+- 👁️ **Show-Hide password** 
 
 # Author
 
